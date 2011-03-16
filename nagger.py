@@ -2,6 +2,7 @@ import datetime
 from email.MIMEText import MIMEText
 import gdata
 import gdata.spreadsheet.service
+from optparse import OptionParser
 import os.path
 import re
 import smtplib
